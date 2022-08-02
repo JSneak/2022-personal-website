@@ -1,15 +1,15 @@
 import Navbar from "./components/Navbar";
-// import Hero from "./components/dictionary/Hero";
 import HeroPhoto from "./components/HeroPhoto";
 import CompanyLogoSection from "./components/CompanyLogoSection";
+import WorkExperience from "./components/WorkExperience";
 
 const App = () => {
   return (
-    <div className={""}>
+    <div>
       <Navbar />
-      {/* <Hero /> */}
       <HeroPhoto />
       <CompanyLogoSection />
+      <WorkExperience />
     </div>
   );
 };
