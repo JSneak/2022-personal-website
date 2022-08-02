@@ -6,12 +6,13 @@ const HeroPhoto = () => {
     <div
       className={"flex flex-row bg-palatinate_purple w-screen justify-evenly"}
     >
-      <div className={"flex flex-col justify-center pb-10"}>
+      <div className={"flex flex-col justify-center pb-10 pl-5"}>
         <p className="text-slate-300 text-4xl pb-4">Hello, I'm</p>
         <h1 className="text-white font-bold text-6xl pb-4">Sean J. Kim</h1>
         <p className={" text-slate-300 text-4xl pb-4"}>
-          A <span className="text-emerald-400">Frontend Web Developer</span>{" "}
-          from <span className="text-cyan-400">Chicago</span>
+          A{" "}
+          <span className="text-outrageous_orange">Frontend Web Developer</span>{" "}
+          from <span className="text-paradise_pink">Chicago</span>
         </p>
         {/* <div className="flex flex-row">
           <button
