@@ -1,13 +1,15 @@
-import "./App.css";
+import Navbar from "./components/Navbar";
+// import Hero from "./components/dictionary/Hero";
+import HeroPhoto from "./components/HeroPhoto";
 
-function App() {
+const App = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center">
-      <h1 className="text-3xl font-bold text-blue-600">
-        Install & Setup Vite + React + Typescript + Tailwind CSS 3
-      </h1>
+    <div className={""}>
+      <Navbar />
+      {/* <Hero /> */}
+      <HeroPhoto />
     </div>
   );
-}
+};
 
 export default App;
