@@ -4,7 +4,7 @@ import Logo from "../assets/LogoWhite.png";
 
 const navigation = [
   { name: "About Me", href: "#", current: true },
-  { name: "Work Experience", href: "#", current: false },
+  { name: "Work Experience", href: "#workExperience", current: false },
   { name: "Coding Projects", href: "#", current: false },
 ];
 

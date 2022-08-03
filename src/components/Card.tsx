@@ -13,7 +13,7 @@ const Card = ({ job }: { job: JobInfo }) => {
         <p className="text-xs">{job.timeRange}</p>
       </div>
 
-      <p className={"text-sm"}>{job.desc}</p>
+      <p className={"text-sm pt-1"}>{job.desc}</p>
       <div>
         {job.skills.map((value, index: number) => {
           return (

@@ -4,7 +4,10 @@ import { JobInfo } from "../data/WorkInfo";
 
 const WorkExperience = () => {
   return (
-    <div className={"flex flex-col items-center bg-palatinate_purple"}>
+    <div
+      id="workExperience"
+      className={"flex flex-col items-center bg-palatinate_purple"}
+    >
       <h1 className="text-4xl font-bold pt-4 pb-4 text-white">
         Work Experience
       </h1>
