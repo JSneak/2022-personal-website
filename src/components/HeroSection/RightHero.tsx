@@ -1,5 +1,5 @@
 import Profile from "../../assets/Profile.svg";
-import Sean from "../../assets/hero/Sean.svg";
+import Sean from "../../assets/hero/Sean2.svg";
 import OrangeBlob from "../../assets/hero/orangeblob.svg";
 import PinkBlob from "../../assets/hero/pinkblob.svg";
 import Rock2 from "../../assets/hero/Rock2.svg";
