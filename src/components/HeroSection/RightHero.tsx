@@ -10,11 +10,12 @@ const RightHero = () => {
   // <img src={Profile} alt={"Profile"} className={"h-[32rem]"} />;
   return (
     <div className={"hidden sm:block h-[32rem] w-full relative"}>
-      <img
+      {/* <img
         src={Sean}
         alt={"Profile"}
-        className={"absolute h-[30rem] -bottom-2 z-10"}
-      />
+        className={"absolute h-[30rem] bottom-0 z-10"}
+      /> */}
+      <div className={"absolute h-[75vh] w-[50vw] bottom-0 z-10 bg-contain bg-bottom bg-no-repeat bg-hero-profile"}></div>
       <img
         src={OrangeBlob}
         alt={"Orange Blob"}

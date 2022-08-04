@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-profile': "url('../src/assets/hero/Sean.svg')",
+      },
       colors: {
         palatinate_purple: "#4C1E4F",
         khaki_web: "#B5A886",
