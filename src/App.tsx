@@ -1,15 +1,19 @@
 import Navbar from "./components/Navbar";
-import HeroPhoto from "./components/HeroPhoto";
+import Hero from "./components/HeroSection/Hero";
 import CompanyLogoSection from "./components/CompanyLogoSection";
 import WorkExperience from "./components/WorkExperience";
+import About from "./components/About";
+// import Hero from "./components/dictionary/Hero";
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <HeroPhoto />
+      <Hero />
       <CompanyLogoSection />
-      <WorkExperience />
+      {/* <WorkExperience /> */}
+      {/* <About /> */}
+      {/* Need to add google analytics */}
     </div>
   );
 };
