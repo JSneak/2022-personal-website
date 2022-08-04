@@ -8,7 +8,7 @@ const Hero = () => {
       {/* <LeftHero />
         <RightHero /> */}
       {/* </div> */}
-      <div className={"grid grid-cols-1 sm:grid-cols-2	justify-items-center"}>
+      <div className={"flex justify-items-center"}>
         <LeftHero />
         <RightHero />
       </div>
