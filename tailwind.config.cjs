@@ -12,6 +12,7 @@ module.exports = {
         bisque: "#FEE1C7",
         outrageous_orange: "#FA7E61",
         paradise_pink: "#F44174",
+        viridian_green: "#0FA3B1",
       },
       keyframes: {
         wiggle: {

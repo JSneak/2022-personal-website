@@ -7,6 +7,73 @@ interface JobInfo {
   link: string;
 }
 
+const companies = [
+  {
+    name: "Northern Trust",
+    id: "1",
+    title: "Developer Associate",
+    date: "July 2022 - Current",
+    desc: [
+      "Rotate between different business development divisions to learn the business.",
+      "Work with a variety of programming languages, frameworks, and platforms such as React, Springboot, Java, Typescript, and AWS.",
+      "Communicate with multi-disciplinary teams of business partners, engineers, and clients to help deliver business solutions.",
+    ],
+  },
+  {
+    name: "Dicty Base",
+    id: "2",
+    title: "React Developer",
+    date: "August 2021 - July 2022",
+    desc: [
+      "Worked individually to build the new Dicty Base platform, a research project out of Northwestern University.",
+      "Utilized technologies such as, Mock Service Workers, Javascript, React, GraphQL, and Typescript to build new features.",
+      "Developed and maintained multiple repos within Dicty Base.",
+    ],
+  },
+  {
+    name: "Northern Trust",
+    id: "3",
+    title: "Software Developer Intern",
+    date: "June 2021 - August 2021",
+    desc: [
+      "Worked on Northern Trust Admin and Trade Portal",
+      "Communicated with business partners and engineering team to create mockups for new features.",
+      "Developed new features utilizing React.",
+    ],
+  },
+  {
+    name: "Producers National",
+    id: "4",
+    title: "Software Developer",
+    date: "April 2019 - February 2021",
+    desc: [
+      "Launched a new initiative to sell homeowners and auto insurance policies directly to consumers.",
+      "Developed a React website which utilized Google and Estated APIs to speed up users policy transactions.",
+    ],
+  },
+  {
+    name: "Midwest Immersive",
+    id: "5",
+    title: "Contract Developer",
+    date: "June 2019 - July 2019",
+    desc: [
+      "Created a Node.js service which serves a unique templated website based on photos taken at a physical booth.",
+      "Utilized technologies such as Postman, Node.js, Amazon S3 buckets, AR.js, and Express.",
+    ],
+  },
+  {
+    name: "CDK Global",
+    id: "6",
+    title: "Software Developer Intern",
+    date: "June 2017 - August 2017",
+    desc: [
+      "Created a program that assists the Sales Department by packaging products together via implementing an Apriori pattern analysis algorithm.",
+      "Co-led a team of 3 new student programmers in developing a platform for CDK Global employees to host tournaments.",
+      "Created a custom bracket generation algorithm that accounts for non power of two players.",
+    ],
+  },
+];
+
 const WorkInfo: JobInfo[] = [
   {
     company: "Northern Trust",
@@ -74,5 +141,5 @@ const WorkInfo: JobInfo[] = [
   },
 ];
 
-export { WorkInfo };
+export { WorkInfo, companies };
 export type { JobInfo };

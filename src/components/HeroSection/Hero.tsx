@@ -4,10 +4,6 @@ import RightHero from "./RightHero";
 const Hero = () => {
   return (
     <div className={"bg-palatinate_purple "}>
-      {/* <div className={"flex flex-row justify-evenly"}> */}
-      {/* <LeftHero />
-        <RightHero /> */}
-      {/* </div> */}
       <div className={"flex justify-items-center"}>
         <LeftHero />
         <RightHero />
