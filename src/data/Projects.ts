@@ -1,6 +1,6 @@
-import ShipIt from "../assets/projects/shipit.avif";
-import PowerOf2 from "../assets/projects/PowerOf2.png";
-import Challenger from "../assets/projects/Challenger.png";
+import ShipIt from "../assets/projects/shipit.png";
+import PowerOf2 from "../assets/projects/power2.png";
+import Challenger from "../assets/projects/challenger.png";
 
 const projects = [
   {
