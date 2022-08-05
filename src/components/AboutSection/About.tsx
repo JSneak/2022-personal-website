@@ -55,7 +55,7 @@ const About = () => {
           Education
         </h1>
         <hr className={"w-[100%] pb-1"}></hr>
-        <div className="flex flex-row justify-between text-base sm:text-lg">
+        <div className="flex flex-row justify-between text-sm sm:text-lg">
           <div>
             <p className="text-white">University of Illinois at Chicago</p>
             <p className="text-white">B.S. in Computer Science</p>
