@@ -61,7 +61,7 @@ const About = () => {
             <p className="text-white">B.S. in Computer Science</p>
           </div>
           <div>
-            <p className="text-outrageous_orange">FA 2014 - SP 2018</p>
+            <p className="text-outrageous_orange">FA 2018 - SP 2022</p>
           </div>
         </div>
       </div>
