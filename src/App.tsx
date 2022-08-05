@@ -12,11 +12,12 @@ const App = () => {
       <Navbar />
       <Hero />
       <Divider />
+      <About />
+      <Divider />
       <WorkExperience />
       <Divider />
       <Projects />
-      <Divider />
-      <About />
+
       <Divider />
       <Footer />
       {/* Need to add google analytics */}

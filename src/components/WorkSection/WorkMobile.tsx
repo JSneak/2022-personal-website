@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Tab } from "@headlessui/react";
 import { companies } from "../../data/WorkInfo";
 
