@@ -3,7 +3,7 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Logo from "../assets/LogoWhite.png";
 
 const navigation = [
-  { name: "About Me", href: "#", current: true },
+  { name: "About Me", href: "#", current: false },
   { name: "Work Experience", href: "#workExperience", current: false },
   { name: "Coding Projects", href: "#projects", current: false },
 ];
@@ -61,9 +61,6 @@ export default function Navbar() {
                       {item.name}
                     </a>
                   ))}
-                  <a className={"px-3 py-2 rounded-md text-sm font-medium "}>
-                    Let's Chat
-                  </a>
                 </div>
               </div>
             </div>
