@@ -1,5 +1,3 @@
-import { useState } from "react";
-import { RadioGroup } from "@headlessui/react";
 import WorkDesktop from "./WorkDesktop";
 import WorkMobile from "./WorkMobile";
 
@@ -12,7 +10,7 @@ const WorkExperience = () => {
       }
     >
       <h1 className={"text-xl font-bold text-white sm:text-4xl my-2"}>
-        Work Experience
+        Work Experience.
       </h1>
       {/* For Non Mobile Displays */}
       <WorkDesktop />
