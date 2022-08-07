@@ -7,11 +7,11 @@ function classNames(...classes: string[]) {
 
 const WorkMobile = () => {
   return (
-    <div className="block sm:hidden">
+    <div className="block lg:hidden">
       <Tab.Group defaultIndex={0}>
         <Tab.Panels className="">
           {companies.map((company, idx) => (
-            <Tab.Panel key={idx} className={"h-40"}>
+            <Tab.Panel key={idx} className={"h-44 md:h-28"}>
               <div>
                 <h3 className="text-s font-medium leading-5 text-white">
                   {company.title}
