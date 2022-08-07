@@ -45,79 +45,127 @@ const BuiltWithInfo = [
   },
 ];
 
-const SkillInfo = [
-  {
-    image: CSSIcon,
-    alt_name: "CSS",
-  },
-  {
-    image: HTML5Icon,
-    alt_name: "HTML5",
-  },
-  {
-    image: TSIcon,
-    alt_name: "TypeScript",
-  },
-  {
-    image: JSIcon,
-    alt_name: "JavaScript",
-  },
-  {
-    image: JavaIcon,
-    alt_name: "Java",
-  },
-  {
-    image: PythonIcon,
-    alt_name: "Python",
-  },
-  {
-    image: ViteIcon,
-    alt_name: "Vite",
-  },
-  {
-    image: NodeJsIcon,
-    alt_name: "NodeJS",
-  },
-  {
-    image: NPMIcon,
-    alt_name: "NPM",
-  },
-  {
-    image: YarnIcon,
-    alt_name: "Yarn",
-  },
-  {
-    image: NextjsIcon,
-    alt_name: "Next.js",
-  },
-  {
-    image: ReactIcon,
-    alt_name: "React",
-  },
-  {
-    image: ThreejsIcon,
-    alt_name: "Three.js",
-  },
-  {
-    image: FirebaseIcon,
-    alt_name: "Firebase",
-  },
-  {
-    image: MongoDBIcon,
-    alt_name: "MongoDB",
-  },
-  {
-    image: ReactTestingIcon,
-    alt_name: "React Testing",
-  },
-  {
-    image: CypressIcon,
-    alt_name: "Cypress",
-  },
-  {
-    image: TailwindIcon,
-    alt_name: "Tailwind",
-  },
+const Languages = {
+  desc: "Languages",
+  color: "",
+  tech: [
+    {
+      image: CSSIcon,
+      alt_name: "CSS",
+    },
+    {
+      image: HTML5Icon,
+      alt_name: "HTML5",
+    },
+    {
+      image: TSIcon,
+      alt_name: "TypeScript",
+    },
+    {
+      image: JSIcon,
+      alt_name: "JavaScript",
+    },
+    {
+      image: JavaIcon,
+      alt_name: "Java",
+    },
+    {
+      image: PythonIcon,
+      alt_name: "Python",
+    },
+  ],
+};
+
+const Testing = {
+  desc: "Testing",
+  color: "",
+  tech: [
+    {
+      image: ReactTestingIcon,
+      alt_name: "React Testing",
+    },
+    {
+      image: CypressIcon,
+      alt_name: "Cypress",
+    },
+  ],
+};
+
+const Libraries = {
+  desc: "Libraries",
+  color: "",
+  tech: [
+    {
+      image: ReactIcon,
+      alt_name: "React",
+    },
+    {
+      image: ThreejsIcon,
+      alt_name: "Three.js",
+    },
+  ],
+};
+
+const Frameworks = {
+  desc: "Frameworks",
+  color: "",
+  tech: [
+    {
+      image: TailwindIcon,
+      alt_name: "Tailwind",
+    },
+    {
+      image: NextjsIcon,
+      alt_name: "Next.js",
+    },
+  ],
+};
+
+const Databases = {
+  desc: "Databases",
+  color: "",
+  tech: [
+    {
+      image: FirebaseIcon,
+      alt_name: "Firebase",
+    },
+    {
+      image: MongoDBIcon,
+      alt_name: "MongoDB",
+    },
+  ],
+};
+
+const BuildTools = {
+  desc: "Build Tools",
+  color: "",
+  tech: [
+    {
+      image: ViteIcon,
+      alt_name: "Vite",
+    },
+    {
+      image: NodeJsIcon,
+      alt_name: "NodeJS",
+    },
+    {
+      image: NPMIcon,
+      alt_name: "NPM",
+    },
+    {
+      image: YarnIcon,
+      alt_name: "Yarn",
+    },
+  ],
+};
+
+const SkillsData = [
+  Languages,
+  Testing,
+  Libraries,
+  Frameworks,
+  Databases,
+  BuildTools,
 ];
 
-export { SkillInfo, BuiltWithInfo };
+export { BuiltWithInfo, SkillsData };

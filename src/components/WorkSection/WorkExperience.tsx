@@ -14,7 +14,7 @@ const WorkExperience = () => {
           "text-xl font-bold text-white sm:text-4xl my-2 font-headerFont"
         }
       >
-        Work Experience.
+        Work Experience
       </h1>
       <hr className={"w-[100%] pb-1"}></hr>
       {/* For Non Mobile Displays */}
