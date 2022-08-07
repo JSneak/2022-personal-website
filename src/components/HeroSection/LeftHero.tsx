@@ -10,11 +10,13 @@ const LeftHero = () => {
       }
     >
       <div className={" h-[20rem] sm:h-auto relative"}>
-        <p className="text-slate-300 text-xl sm:text-4xl">Hello, I'm</p>
-        <h1 className="text-white font-bold text-5xl sm:text-6xl">
+        <p className="text-slate-300 text-xl sm:text-4xl font-bodyFont">
+          Hello, I'm
+        </p>
+        <h1 className="text-white font-bold text-5xl sm:text-6xl font-headerFont">
           Sean J. Kim
         </h1>
-        <p className={" text-slate-300 text-xl sm:text-4xl "}>
+        <p className={" text-slate-300 text-xl sm:text-4xl font-bodyFont"}>
           A{" "}
           <span className="text-outrageous_orange">
             Fullstack Web Developer

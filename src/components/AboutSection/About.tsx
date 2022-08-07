@@ -4,13 +4,13 @@ const About = () => {
       <div className="flex flex-col">
         <h1
           className={
-            "text-xl font-bold text-white sm:text-4xl my-2 sm:flex sm:justify-center"
+            "text-xl font-bold text-white sm:text-4xl my-2 sm:flex sm:justify-center font-headerFont"
           }
         >
           About Me
         </h1>
         <hr className={"w-[100%] pb-1"}></hr>
-        <div className="text-base sm:text-lg">
+        <div className="text-base sm:text-lg font-bodyFont">
           <p className={"text-white pb-2"}>
             In 2014, I began my web development journey creating this{" "}
             <a

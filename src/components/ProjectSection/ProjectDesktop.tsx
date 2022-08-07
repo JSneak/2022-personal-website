@@ -13,7 +13,7 @@ import { projects } from "../../data/Projects";
 
 const ProjectDesktop = () => {
   return (
-    <div className="hidden sm:block my-2">
+    <div className="hidden sm:block my-2 font-bodyFont">
       {projects.map((project, id) => (
         <div key={id} className=" relative my-2 bg-gray-700 px-5 pt-6 pb-6">
           <div className={"relative z-10"}>

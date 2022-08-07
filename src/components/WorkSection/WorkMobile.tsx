@@ -7,7 +7,7 @@ function classNames(...classes: string[]) {
 
 const WorkMobile = () => {
   return (
-    <div className="block lg:hidden">
+    <div className="block lg:hidden font-bodyFont">
       <Tab.Group defaultIndex={0}>
         <Tab.Panels className="">
           {companies.map((company, idx) => (

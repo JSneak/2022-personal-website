@@ -1,8 +1,15 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        importantFont: ["Permanent Marker", ...defaultTheme.fontFamily.sans],
+        bodyFont: ["Montserrat", ...defaultTheme.fontFamily.sans],
+        headerFont: ["Carter One", ...defaultTheme.fontFamily.sans],
+      },
       backgroundImage: {
         "hero-profile": "url('../src/assets/hero/Sean2.svg')",
       },

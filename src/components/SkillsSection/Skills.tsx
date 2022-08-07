@@ -4,10 +4,10 @@ const Skills = () => {
   return (
     <div className="">
       <div>
-        <h1 className="text-xl sm:text-4xl font-bold text-white flex sm:justify-center">
+        <h1 className="text-xl sm:text-4xl font-bold text-white flex sm:justify-center font-headerFont">
           Relevant Skills
         </h1>
-        <div className="grid gap-2 grid-cols-2 sm:grid-cols-6">
+        <div className="grid gap-2 grid-cols-2 sm:grid-cols-6 font-bodyFont">
           {SkillInfo.map((icon, key) => (
             <div key={key} className="flex flex-col items-center px-2 py-2">
               <img
@@ -23,7 +23,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-      <div className="">
+      <div className="font-bodyFont">
         <h1 className="text-xl font-bold  sm:text-4xl text-white flex sm:justify-center">
           This website is built with:
         </h1>

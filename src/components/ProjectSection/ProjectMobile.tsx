@@ -4,7 +4,7 @@ import { projects } from "../../data/Projects";
 
 const ProjectMobile = () => {
   return (
-    <div className="block sm:hidden ">
+    <div className="block sm:hidden font-bodyFont">
       {projects.map((project, id) => (
         <div key={id} className=" relative my-2 bg-gray-700 px-5 pt-6 pb-6">
           <div className={"relative z-10"}>

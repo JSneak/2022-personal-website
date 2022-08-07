@@ -7,7 +7,7 @@ function classNames(...classes: string[]) {
 
 const WorkDesktop = () => {
   return (
-    <div className="hidden lg:block my-2">
+    <div className="hidden lg:block my-2 font-bodyFont">
       <Tab.Group vertical={true} defaultIndex={0}>
         <div className="flex flex-row items-start">
           <Tab.List className="flex flex-col items-start border-l-2 border-white/40 overflow-y-auto space-y-1">
