@@ -15,7 +15,7 @@ import FirebaseIcon from "../assets/skills/firebase.webp"; //
 import MongoDBIcon from "../assets/skills/mongodb.svg"; //
 import ReactTestingIcon from "../assets/skills/reacttesting.avif"; //
 import CypressIcon from "../assets/skills/cypress.svg"; //
-import TailwindIcon from "../assets/skills/Tailwind.svg";
+import TailwindIcon from "../assets/skills/tailwind.svg";
 
 const BuiltWithInfo = [
   {
