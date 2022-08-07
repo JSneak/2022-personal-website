@@ -18,7 +18,7 @@ export default function Navbar() {
     <Disclosure as="nav" className="bg-palatinate_purple">
       {({ open }) => (
         <>
-          <div className="max-w-7xl">
+          <div className="">
             <div className="relative flex items-center justify-between h-16">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
