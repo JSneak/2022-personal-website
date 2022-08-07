@@ -4,16 +4,16 @@ import TSIcon from "../assets/skills/typescript.svg"; //
 import JSIcon from "../assets/skills/javascript.svg"; //
 import JavaIcon from "../assets/skills/java.svg"; //
 import PythonIcon from "../assets/skills/python.svg"; //
-import ViteIcon from "../assets/skills/vite.avif"; //
+import ViteIcon from "../assets/skills/vitejs.svg"; //
 import NodeJsIcon from "../assets/skills/node.svg"; //
 import NPMIcon from "../assets/skills/npm.svg"; //
 import YarnIcon from "../assets/skills/yarn.svg"; //
 import NextjsIcon from "../assets/skills/next.webp"; //
 import ReactIcon from "../assets/skills/react.svg"; //
-import ThreejsIcon from "../assets/skills/three.avif"; //
+import ThreejsIcon from "../assets/skills/threejs.svg"; //
 import FirebaseIcon from "../assets/skills/firebase.webp"; //
 import MongoDBIcon from "../assets/skills/mongodb.svg"; //
-import ReactTestingIcon from "../assets/skills/reacttesting.avif"; //
+import ReactTestingIcon from "../assets/skills/reacttesting.webp"; //
 import CypressIcon from "../assets/skills/cypress.svg"; //
 import TailwindIcon from "../assets/skills/Tailwind.svg";
 
