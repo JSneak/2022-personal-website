@@ -46,6 +46,12 @@ const About = () => {
             doing Fullstack Development. I'm always looking for new
             opportunities to create amazing user experiences.
           </p>
+          <a
+            className="bg-outrageous_orange text-white font-bold py-2 px-4 rounded font-bodyFont"
+            href="https://docs.google.com/document/d/1f7NKqpiJZiOxvev5hMJ59Qgf4SUZsx9e/edit?usp=sharing&ouid=111409459282321036132&rtpof=true&sd=true"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </div>
