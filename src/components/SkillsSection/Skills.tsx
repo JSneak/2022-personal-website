@@ -3,7 +3,7 @@ import RelevantSkills from "./RelevantSkills";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col" id="skills">
       <div className="">
         <h1 className="text-xl sm:text-4xl font-bold text-white flex sm:justify-center font-headerFont my-2">
           Relevant Skills

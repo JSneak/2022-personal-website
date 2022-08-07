@@ -3,7 +3,8 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import Logo from "../assets/LogoWhite.png";
 
 const navigation = [
-  { name: "About Me", href: "#", current: false },
+  { name: "About Me", href: "#about", current: false },
+  { name: "Relevant Skills", href: "#skills", current: false },
   { name: "Work Experience", href: "#workExperience", current: false },
   { name: "Coding Projects", href: "#projects", current: false },
 ];

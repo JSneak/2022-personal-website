@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <div className={"py-10 sm:py-0 flex flex-col sm:flex-row justify-evenly"}>
+    <div
+      id="about"
+      className={"py-10 sm:py-0 flex flex-col sm:flex-row justify-evenly"}
+    >
       <div className="flex flex-col">
         <h1
           className={
