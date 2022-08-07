@@ -5,19 +5,21 @@ import Projects from "./components/ProjectSection/Projects";
 import Divider from "./components/Divider";
 import Footer from "./components/Footer";
 import About from "./components/AboutSection/About";
+import Skills from "./components/SkillsSection/Skills";
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-palatinate_purple">
       <Navbar />
       <Hero />
       <Divider />
       <About />
       <Divider />
+      <Skills />
+      <Divider />
       <WorkExperience />
       <Divider />
       <Projects />
-
       <Divider />
       <Footer />
       {/* Need to add google analytics */}
