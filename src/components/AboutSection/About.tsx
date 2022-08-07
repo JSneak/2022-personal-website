@@ -22,7 +22,7 @@ const About = () => {
                 "underline text-outrageous_orange hover:placeholder-paradise_pink visited:placeholder-paradise_pink"
               }
             >
-              project.
+              project.{" "}
             </a>
             From 2016 to 2018, my interest in web development and hackathons led
             me to lead a team of 5 students to host THE{" "}
