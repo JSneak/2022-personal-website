@@ -40,7 +40,7 @@ const ProjectDesktop = () => {
           </div>
           <img
             src={project.image}
-            alt=""
+            alt="project_image"
             className="absolute inset-0 h-full w-full object-cover opacity-10 z-0"
           />
         </div>
