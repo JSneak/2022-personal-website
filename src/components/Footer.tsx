@@ -27,7 +27,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/jsneak/">
             <FaLinkedin className="w-6 h-6 text-outrageous_orange" />
           </a>
-          <a href="mailto: abc@example.com">
+          <a href="mailto: thesean.kim33@gmail.com">
             <FaMailBulk className="w-6 h-6 text-outrageous_orange" />
           </a>
         </div>
