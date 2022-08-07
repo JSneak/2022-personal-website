@@ -1,7 +1,7 @@
 const RelevantSkills = ({ category }) => {
   return (
     <div className="outline outline-white flex flex-wrap flex-row relative my-5 mx-5">
-      <div className="absolute -top-3 text-white bg-outrageous_orange outline outline-white">
+      <div className="absolute -top-3 -left-1 text-white bg-outrageous_orange outline outline-white px-2">
         {category.desc}
       </div>
       {category.tech.map((icon, key: number) => (
