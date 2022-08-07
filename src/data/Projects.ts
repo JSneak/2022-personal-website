@@ -9,7 +9,7 @@ const projects = [
     tech: ["Javascript", "go.js"],
     image: PowerOf2,
     github_link: "https://github.com/JSneak/Brackets_for_Non_Powers_of_2",
-    link: "https://www.sean.kim/brackets/go.html",
+    link: "https://curious-fairy-a6c2d1.netlify.app/brackets/go.html",
   },
   {
     name: "Hack Club Shipit",
