@@ -11,7 +11,7 @@ const WorkMobile = () => {
       <Tab.Group defaultIndex={0}>
         <Tab.Panels className="">
           {companies.map((company, idx) => (
-            <Tab.Panel key={idx} className={""}>
+            <Tab.Panel key={idx} className={"h-40"}>
               <div>
                 <h3 className="text-s font-medium leading-5 text-white">
                   {company.title}
