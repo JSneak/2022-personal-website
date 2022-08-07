@@ -16,7 +16,9 @@ const LeftHero = () => {
         </h1>
         <p className={" text-slate-300 text-xl sm:text-4xl "}>
           A{" "}
-          <span className="text-outrageous_orange">Frontend Web Developer</span>{" "}
+          <span className="text-outrageous_orange">
+            Fullstack Web Developer
+          </span>{" "}
           from <span className="text-paradise_pink">Chicago</span>
         </p>
         <img

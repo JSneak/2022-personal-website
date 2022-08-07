@@ -12,9 +12,7 @@ const About = () => {
         <hr className={"w-[100%] pb-1"}></hr>
         <div className="text-base sm:text-lg">
           <p className={"text-white pb-2"}>
-            Hi, my name is{" "}
-            <span className="text-outrageous_orange">Sean Kim</span>. I began my
-            journey on May 2014 with this{" "}
+            In 2014, I began my web development journey creating this{" "}
             <a
               href="https://www.sean.kim/4yearsago/endofyearproject"
               className={
@@ -23,9 +21,8 @@ const About = () => {
             >
               project.
             </a>
-          </p>
-          <p className="text-white pb-2">
-            In 2018 I led a team of 5 students to host the{" "}
+            From 2016 to 2018, my interest in web development and hackathons led
+            me to lead a team of 5 students to host THE{" "}
             <a
               href="https://www.youtube.com/watch?v=k8HI0y2CyKI"
               className={
@@ -37,28 +34,15 @@ const About = () => {
             in the Midwest.
           </p>
           <p className="text-white pb-2">
-            Now I try my best to continue learning and make the best user
-            experiences.
+            Today, my main focus is taking complicated problems and building
+            mind-blowing user experiences. When i'm not working, you can find me
+            traveling the world or learning new techniques to hone my craft.
           </p>
-        </div>
-      </div>
-      <div className="flex flex-col sm:w-[45%]">
-        <h1
-          className={
-            "text-xl font-bold text-white sm:text-4xl my-2 sm:flex sm:justify-center"
-          }
-        >
-          Education
-        </h1>
-        <hr className={"w-[100%] pb-1"}></hr>
-        <div className="flex flex-row justify-between text-sm sm:text-lg">
-          <div>
-            <p className="text-white">University of Illinois at Chicago</p>
-            <p className="text-white">B.S. in Computer Science</p>
-          </div>
-          <div>
-            <p className="text-outrageous_orange">FA 2018 - SP 2022</p>
-          </div>
+          <p className="text-white pb-2">
+            Currently I'm a Rotational Developer Associate at Northern Trust
+            doing Fullstack Development. I'm always looking for new
+            opportunities to create amazing user experiences.
+          </p>
         </div>
       </div>
     </div>
