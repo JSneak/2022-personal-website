@@ -2,7 +2,7 @@ import { BuiltWithInfo, SkillInfo } from "../../data/SkillsInfo";
 
 const Skills = () => {
   return (
-    <div className="bg-palatinate_purple">
+    <div className="">
       <div>
         <h1 className="text-xl sm:text-4xl font-bold text-white flex sm:justify-center">
           Relevant Skills

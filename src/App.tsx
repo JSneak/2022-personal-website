@@ -9,7 +9,7 @@ import Skills from "./components/SkillsSection/Skills";
 
 const App = () => {
   return (
-    <div className="bg-palatinate_purple">
+    <div className="bg-palatinate_purple px-4 sm:px-6 lg:px-8">
       <Navbar />
       <Hero />
       <Divider />

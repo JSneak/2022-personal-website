@@ -6,7 +6,7 @@ const LeftHero = () => {
   return (
     <div
       className={
-        "flex flex-col grow sm:basis-1/2 justify-center mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-0 overflow-hidden"
+        "flex flex-col grow sm:basis-1/2 justify-center mx-auto py-10 sm:py-0 overflow-hidden "
       }
     >
       <div className={" h-[20rem] sm:h-auto relative"}>
