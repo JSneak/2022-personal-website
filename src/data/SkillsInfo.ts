@@ -136,7 +136,16 @@ const Databases = {
   ],
 };
 
-const BuildTools = {
+interface SkillsType {
+  desc: string;
+  color: string;
+  tech: Array<{
+    image: string;
+    alt_name: string;
+  }>;
+}
+
+const BuildTools: SkillsType = {
   desc: "Build Tools",
   color: "",
   tech: [
@@ -169,3 +178,4 @@ const SkillsData = [
 ];
 
 export { BuiltWithInfo, SkillsData };
+export type { SkillsType };
