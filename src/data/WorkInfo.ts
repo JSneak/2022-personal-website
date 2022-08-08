@@ -18,6 +18,7 @@ const companies = [
       "Work with a variety of programming languages, frameworks, and platforms such as React, Springboot, Java, Typescript, and AWS.",
       "Communicate with multi-disciplinary teams of business partners, engineers, and clients to help deliver business solutions.",
     ],
+    link: "https://www.northerntrust.com/united-states/home",
   },
   {
     name: "Dicty Base",
@@ -29,6 +30,7 @@ const companies = [
       "Utilized technologies such as, Mock Service Workers, Javascript, React, GraphQL, and Typescript to build new features.",
       "Developed and maintained multiple repos within Dicty Base.",
     ],
+    link: "https://github.com/dictyBase",
   },
   {
     name: "Northern Trust",
@@ -40,6 +42,7 @@ const companies = [
       "Communicated with business partners and engineering team to create mockups for new features.",
       "Developed new features utilizing React.",
     ],
+    link: "https://www.northerntrust.com/united-states/home",
   },
   {
     name: "Producers National",
@@ -50,6 +53,7 @@ const companies = [
       "Launched a new initiative to sell homeowners and auto insurance policies directly to consumers.",
       "Developed a React website which utilized Google and Estated APIs to speed up users policy transactions.",
     ],
+    link: "https://producersnational.com/",
   },
   {
     name: "Midwest Immersive",
@@ -60,6 +64,7 @@ const companies = [
       "Created a Node.js service which serves a unique templated website based on photos taken at a physical booth.",
       "Utilized technologies such as Postman, Node.js, Amazon S3 buckets, AR.js, and Express.",
     ],
+    link: "https://www.mwimmersive.com/",
   },
   {
     name: "CDK Global",
@@ -71,6 +76,7 @@ const companies = [
       "Co-led a team of 3 new student programmers in developing a platform for CDK Global employees to host tournaments.",
       "Created a custom bracket generation algorithm that accounts for non power of two players.",
     ],
+    link: "https://www.cdkglobal.com/",
   },
 ];
 

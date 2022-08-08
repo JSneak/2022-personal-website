@@ -32,9 +32,7 @@ const WorkDesktop = () => {
                   <h3 className="text-2xl font-medium leading-5 text-white">
                     {company.title}
                     <span className={"text-outrageous_orange"}>
-                      <a href="https://www.northerntrust.com/united-states/home">
-                        {" @ " + company.name}
-                      </a>
+                      <a href={company.link}>{" @ " + company.name}</a>
                     </span>
                   </h3>
                   <p className="flex space-x-1 text-s py-2 font-normal leading-4 text-gray-200">
