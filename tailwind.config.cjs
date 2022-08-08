@@ -8,7 +8,7 @@ module.exports = {
       fontFamily: {
         importantFont: ["Permanent Marker", ...defaultTheme.fontFamily.sans],
         bodyFont: ["Montserrat", ...defaultTheme.fontFamily.sans],
-        headerFont: ["Carter One", ...defaultTheme.fontFamily.sans],
+        headerFont: ["Tiro Gurmukhi", ...defaultTheme.fontFamily.sans],
       },
       backgroundImage: {
         "hero-profile": "url('../src/assets/hero/Sean2.svg')",

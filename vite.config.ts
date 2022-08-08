@@ -10,7 +10,12 @@ export default defineConfig({
     react({ jsxRuntime: "classic" }),
     VitePluginFonts({
       google: {
-        families: ["Carter One", "Montserrat", "Permanent Marker"],
+        families: [
+          "Carter One",
+          "Montserrat",
+          "Permanent Marker",
+          "Tiro Gurmukhi",
+        ],
       },
     }),
   ],
