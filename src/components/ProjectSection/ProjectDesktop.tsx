@@ -15,7 +15,10 @@ const ProjectDesktop = () => {
   return (
     <div className="hidden sm:block my-2 font-bodyFont">
       {projects.map((project, id) => (
-        <div key={id} className=" relative my-2 bg-gray-700 px-5 pt-6 pb-6">
+        <div
+          key={id}
+          className=" relative my-2 bg-gray-700 px-5 pt-6 pb-6 transition ease-in-out delay-100 hover:scale-105 duration-300"
+        >
           <div className={"relative z-10"}>
             <p className="text-lg text-outrageous_orange">Featured Project</p>
             <h1 className="text-white text-3xl pb-6">{project.name}</h1>

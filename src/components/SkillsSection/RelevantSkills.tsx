@@ -7,7 +7,10 @@ const RelevantSkills = ({ category }: { category: SkillsType }) => {
         {category.desc}
       </div>
       {category.tech.map((icon, key: number) => (
-        <div key={key} className="flex flex-col items-center px-2 py-2 mt-3">
+        <div
+          key={key}
+          className="flex flex-col items-center px-2 py-2 mt-3 transition ease-in-out delay-100 hover:scale-110 duration-300"
+        >
           <img
             src={icon.image}
             alt={icon.alt_name}
